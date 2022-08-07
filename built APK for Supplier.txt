@@ -1,0 +1,16 @@
+1. delete all files / empty assets folder from tameer_suplier\android\app\src\main\assets
+2.run following command in terminal:
+			react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
+  wait to complete it.
+3.run following two official commands to built apk
+	1- cd .\android\
+	2- ./gradlew assembleRelease
+
+your apk build successfully
+
+
+
+
+
+
+
